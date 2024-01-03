@@ -1,0 +1,40 @@
+/* AppSwitcher.css */
+
+.app-switcher {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 500px;
+  }
+  
+  .app-switcher-button {
+    cursor: pointer;
+    background-color: transparent;
+    color: grey; 
+    border: none;
+    padding: 10px;
+  }
+
+  .app-switcher-button:hover{
+    color: grey;
+  }
+  
+  .app-switcher-options {
+    position: absolute;
+    top: 90%;
+    right: 90%;
+    background-color: #fff; 
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.option{
+  margin: 10px;
+}
+  

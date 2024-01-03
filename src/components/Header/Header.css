@@ -1,0 +1,31 @@
+.header {
+  top: 0;
+  max-width: 100vw;
+  height: 6vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSection {
+  width: 9vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5em;
+}
+
+.rightSection {
+  width: 9vw;
+  margin: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  outline: none;
+}
