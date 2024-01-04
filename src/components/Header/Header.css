@@ -30,14 +30,32 @@
   outline: none;
 }
 
-.select {
-  border: none;
+.custom-select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-.select:focus{
-  border: none; /* This removes the border */
-  /* Add additional styling here to match your design */
+
+.custom-select select {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
 }
-.select:focus, .select:active, select:focus-visible {
-  box-sizing: border-box;
-  border: none;
+
+.select-label {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-right: -2px;
+  font-weight: 400;
+}
+
+.select-arrow {
+  position: relative;
+  width: 100%;
 }
