@@ -16,6 +16,13 @@ const Header = () => {
         </div>
       </div>
       <div className='rightSection'>
+      <div className="custom-select">
+        <span className="selected-language">DE</span>
+        <div className="arrow-down"></div>
+      <select className='select'>
+        <option value="de"></option>
+      </select>
+    </div>
         <AppSwitcher></AppSwitcher>
         <div className='user'>
           <UserFilled size={32}/>

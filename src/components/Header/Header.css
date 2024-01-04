@@ -29,3 +29,15 @@
 .logo {
   outline: none;
 }
+
+.select {
+  border: none;
+}
+.select:focus{
+  border: none; /* This removes the border */
+  /* Add additional styling here to match your design */
+}
+.select:focus, .select:active, select:focus-visible {
+  box-sizing: border-box;
+  border: none;
+}
