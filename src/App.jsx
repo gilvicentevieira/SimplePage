@@ -6,9 +6,10 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div style={{height: '10vh', width: '100vw'}}>
-        <div style={{backgroundColor: 'red'}}></div>
-      </div>
+      <main>
+        <section></section>
+      </main>
+      <footer></footer>
     </>
   )
 }
