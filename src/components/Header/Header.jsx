@@ -15,32 +15,32 @@ const Header = () => {
   }
 
   return (
-    <>
-    <div className='header'>
-      <div className='leftSection'>
-        <Menu/>
-        <div className='logo'>
-          <img src={logo} width={100}></img>
+    <header>
+      <nav className='header'>
+        <div className='leftSection'>
+          <Menu/>
+          <div className='logo'>
+            <img src={logo} width={100}></img>
+          </div>
         </div>
-      </div>
-      <div className='rightSection'>
-        <div className="custom-select">
-          <div className="select-label">{label}</div>
-          <FontAwesomeIcon icon={faAngleDown} className='select-arrow'/>
-          <select id="mySelect" onChange={updateLabel}>
-              <option value="DE">DE</option>
-              <option value="FR">FR</option>
-              <option value="IT">IT</option>
-              <option value="EN">EN</option>
-          </select>
+        <div className='rightSection'>
+          <div className="custom-select">
+            <div className="select-label">{label}</div>
+            <FontAwesomeIcon icon={faAngleDown} className='select-arrow'/>
+            <select id="mySelect" onChange={updateLabel}>
+                <option value="DE">DE</option>
+                <option value="FR">FR</option>
+                <option value="IT">IT</option>
+                <option value="EN">EN</option>
+            </select>
+          </div>
+          <AppSwitcher></AppSwitcher>
+          <div className='user'>
+            <UserFilled size={32}/>
+          </div>
         </div>
-        <AppSwitcher></AppSwitcher>
-        <div className='user'>
-          <UserFilled size={32}/>
-        </div>
-      </div>
-    </div>
-    </>
+      </nav>
+    </header>
   );
 };
 
