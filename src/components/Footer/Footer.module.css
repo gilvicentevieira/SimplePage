@@ -1,0 +1,52 @@
+.container {
+    border: solid 1px lightgray;
+    border-top: none;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px;
+}
+
+.social-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-left > span{
+    text-align: end;
+    font-weight: 600;
+    color: grey;
+    font-size: 18px;
+}
+
+.social-icons > span{
+    font-weight: 100;
+    color: grey;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-right > span:first-child {
+    font-weight: 600;
+    color: grey;
+    font-size: 18px;
+}
+
+.social-right > span:nth-child(2){
+    color: grey;
+}
