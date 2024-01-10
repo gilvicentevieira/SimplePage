@@ -1,6 +1,6 @@
-import React from 'react'
+
 import styles from './Main.module.css'
-import { Helicopter, IbmCloudEventNotification } from '@carbon/icons-react';
+import { IbmCloudEventNotification } from '@carbon/icons-react';
 
 const Main = () => {
   return (
@@ -12,9 +12,11 @@ const Main = () => {
             </div>
             <div>
                 <img src="https://www.ivins.com/wp-content/uploads/2020/09/placeholder-1.png" className={styles.wallpaper}/>
+                <span className={styles['wallpaper-subtitle']}>c: Ronny Hunger</span>
             </div>
-            <div>
-                c
+            <div className={styles.welcome}>
+                <h1 className={styles['welcome-title']}>Herzlich willkommen auf der Benchmarking Plattform</h1>
+                <h5 className={styles['welcome-subtitle']}>Aktuell findet eine Erhebungspause statt. Die nachste Erhebung ist fur Fruhjahr 2024 geplant.</h5>
             </div>
         </section>
     </main>
